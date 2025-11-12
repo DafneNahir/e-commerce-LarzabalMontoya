@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
+
+.item-list-container{
+    color: #96A78D;
+}
+
+.eslogan{
+    font-family: "Cormorant Upright", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 3em;
+}
+
+.productos {
+    font-family: "Libre Caslon Text", serif;
+    font-weight: 400;
+    font-style: italic;
+    color:#E1AD01;
+}

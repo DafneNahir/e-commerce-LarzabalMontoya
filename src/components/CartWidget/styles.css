@@ -1,0 +1,9 @@
+.cart-widget{
+    display: flex;
+    
+}
+
+.logo-carrito{
+    height: 3vh;
+    width: auto;
+}
