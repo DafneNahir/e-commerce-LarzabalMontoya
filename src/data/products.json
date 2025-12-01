@@ -1,0 +1,90 @@
+[
+  {
+    "id": "a1",
+    "category": "anillos",
+    "subcategory": "oro",
+    "name": "Anillo de Oro 18k Clásico",
+    "price": 65000,
+    "img": "/ProductosVenta/Anillos/anillo-oro.png"
+  },
+  {
+    "id": "a2",
+    "category": "anillos",
+    "subcategory": "oro-rosa",
+    "name": "Anillo de Oro Rosa 18k",
+    "price": 72000,
+    "img": "/ProductosVenta/Anillos/anillo-oro-rosa.png"
+  },
+  {
+    "id": "a3",
+    "category": "anillos",
+    "subcategory": "plata",
+    "name": "Anillo Plata 925 con zirconia",
+    "price": 22000,
+    "img": "/ProductosVenta/Anillos/anillo-plata925.png"
+  },
+  {
+    "id": "b1",
+    "category": "aros",
+    "subcategory": "argollas",
+    "name": "Argollas de Plata 925",
+    "price": 18000,
+    "img": "/ProductosVenta/Aros/aros-argollas.png"
+  },
+  {
+    "id": "b2",
+    "category": "aros",
+    "subcategory": "colgantes",
+    "name": "Aros Colgantes",
+    "price": 9000,
+    "img": "/ProductosVenta/Aros/aros-colgantes.png"
+  },
+  {
+    "id": "c1",
+    "category": "collares",
+    "subcategory": "cadenas",
+    "name": "Cadena de Plata 925",
+    "price": 35000,
+    "img": "/ProductosVenta/Collares/collares-cadena.png"
+  },
+  {
+    "id": "c2",
+    "category": "collares",
+    "subcategory": "dijes",
+    "name": "Dije Corazón",
+    "price": 25000,
+    "img": "/ProductosVenta/Collares/collares-dije.png"
+  },
+  {
+    "id": "d1",
+    "category": "pulseras",
+    "subcategory": null,
+    "name": "Pulsera de Oro",
+    "price": 40000,
+    "img": "/ProductosVenta/Pulseras/pulsera1.png"
+  },
+  {
+    "id": "d2",
+    "category": "pulseras",
+    "subcategory": null,
+    "name": "Pulsera de Plata 925",
+    "price": 8000,
+    "img": "/ProductosVenta/Pulseras/pulsera2.png"
+  },
+  {
+    "id": "e1",
+    "category": "relojes",
+    "subcategory": null,
+    "name": "Reloj Clásico",
+    "price": 55000,
+    "img": "/ProductosVenta/Relojes/relojes1.png"
+  },
+  {
+    "id": "e2",
+    "category": "relojes",
+    "subcategory": null,
+    "name": "Reloj Deportivo Negro",
+    "price": 38000,
+    "img": "/ProductosVenta/Relojes/relojes2.png"
+  }
+]

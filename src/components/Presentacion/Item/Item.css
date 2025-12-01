@@ -1,0 +1,13 @@
+.item-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+  background: white;
+  transition: 0.2s ease;
+  width: 200px;
+}
+
+.item-card:hover {
+  transform: scale(1.03);
+}
