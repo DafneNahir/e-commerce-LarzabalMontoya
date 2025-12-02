@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Routes, Route } from "react-router";
 import './App.css'
-import ItemListContainer from "./components/Container/ItemListContainer/ItemListContainer";
+import ItemListContainer from "./components/Container/ItemListContainer/itemListContainer.jsx";
 import ItemDetailContainer from "./components/Container/ItemDetailContainer/ItemDetailContainer";
 import NavBar from "./components/Presentacion/NavBar/NavBar";
 import Footer from "./components/Presentacion/Footer/Footer";
