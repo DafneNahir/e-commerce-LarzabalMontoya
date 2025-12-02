@@ -19,3 +19,4 @@ const ItemDetail = ({ producto, onAdd }) => {
 };
 
 export default ItemDetail;
+

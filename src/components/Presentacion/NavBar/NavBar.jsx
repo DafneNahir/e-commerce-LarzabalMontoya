@@ -58,3 +58,4 @@ const NavBar = ({ cartCount }) => {
 };
 
 export default NavBar;
+

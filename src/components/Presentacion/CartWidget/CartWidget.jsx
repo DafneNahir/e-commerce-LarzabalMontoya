@@ -27,3 +27,4 @@ const CartWidget = ({ cartCount }) => {
 };
 
 export default CartWidget;
+

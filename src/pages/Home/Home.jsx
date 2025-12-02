@@ -17,3 +17,4 @@ const Home = ({ greeting }) => {
 };
 
 export default Home;
+

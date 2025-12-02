@@ -38,12 +38,14 @@ const ItemListContainer = () => {
 
       {loading ? (
         <Loader />
-      ) : (
+      ) : filtered.length > 0 ? (
         <div className="cards-grid">
           {filtered.map((item) => (
             <ItemCard key={item.id} item={item} />
           ))}
         </div>
+      ) : (
+        <p>No se encontraron productos.</p>
       )}
     </div>
   );

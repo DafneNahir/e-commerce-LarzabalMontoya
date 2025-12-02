@@ -31,3 +31,4 @@ const ItemDetailContainer = ({ addToCart }) => {
 };
 
 export default ItemDetailContainer;
+

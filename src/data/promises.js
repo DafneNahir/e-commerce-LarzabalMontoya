@@ -21,3 +21,4 @@ export const getProductById = async (id) => {
   await delay(1000);
   return products.find(prod => prod.id === id);
 };
+

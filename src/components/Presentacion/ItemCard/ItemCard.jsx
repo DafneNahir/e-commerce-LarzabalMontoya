@@ -1,3 +1,4 @@
+import images from "../../../assets/imageImports";
 import "./ItemCard.css";
 
 const ItemCard = ({ item }) => {
@@ -6,7 +7,7 @@ const ItemCard = ({ item }) => {
   return (
     <div className="item-card">
       <div className="item-img-container">
-        <img src={item.img} alt={item.name} className="item-img" />
+        <img src={images[item.img]} alt={item.name} className="item-img" />
       </div>
 
       <div className="item-info">
