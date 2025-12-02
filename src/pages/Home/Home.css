@@ -1,0 +1,19 @@
+.home-container {
+  padding: 40px;
+  font-family: "Libre Caslon Text", serif;
+  color: #96A78D;
+}
+
+.home-container h2 {
+  font-family: "Cormorant Upright", serif;
+  font-weight: 500;
+  font-size: 2.5em;
+  color: #B6CEB4;
+  margin-bottom: 15px;
+}
+
+.home-container p {
+  font-size: 3em;
+  color: #96A78D;
+  line-height: 1.5;
+}

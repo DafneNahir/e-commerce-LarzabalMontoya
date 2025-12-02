@@ -1,0 +1,27 @@
+.filtros-container {
+  display: flex;
+  gap: 1rem;
+  margin: 20px auto;
+  justify-content: center;
+}
+
+.filtros-container select {
+  background: #f8f4f3;
+  border: 1px solid #d4b8a3;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #5a4636;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.filtros-container select:hover {
+  background: #efe6e1;
+}
+
+.filtros-container select:focus {
+  outline: none;
+  border-color: #b29079;
+}
+

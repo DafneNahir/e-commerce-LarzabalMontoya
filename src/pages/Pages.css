@@ -1,0 +1,23 @@
+.page-container {
+  padding: 40px;
+  font-family: "Libre Caslon Text", serif;
+  color: #96A78D;
+}
+
+.page-container h2 {
+  font-family: "Cormorant Upright", serif;
+  font-weight: 500;
+  font-size: 2.5em;
+  color: #B6CEB4;
+  margin-bottom: 15px;
+}
+
+.page-container p {
+  font-size: 1.5rem;
+  color: #96A78D;
+  line-height: 1.5;
+}
+
+.notFound {
+  text-align: center;
+}

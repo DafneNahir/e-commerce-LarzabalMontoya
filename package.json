@@ -13,8 +13,13 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "axios": "^1.13.2",
+    "node": "^20.19.6",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "react-router": "^7.9.6",
+    "react-router-dom": "^7.9.6",
+    "react-spinners": "^0.17.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
@@ -28,3 +33,4 @@
     "vite": "^7.1.7"
   }
 }
+

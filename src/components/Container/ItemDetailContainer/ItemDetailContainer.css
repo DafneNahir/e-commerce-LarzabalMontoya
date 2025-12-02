@@ -1,0 +1,18 @@
+.item-detail-container {
+    padding: 40px;
+    color: #96A78D; 
+}
+
+.producto-titulo {
+    font-family: "Cormorant Upright", serif;
+    font-weight: 500;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.producto-descripcion {
+    font-family: "Libre Caslon Text", serif;
+    font-style: italic;
+    color: #B6CEB4;
+}
+

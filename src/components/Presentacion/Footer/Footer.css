@@ -1,0 +1,30 @@
+footer {
+  width: 100%;
+  background-color: #96A78D;
+  padding: 1.2rem 0;
+  font-family: "Cormorant Upright", serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #F0F0F0;
+  box-sizing: border-box;
+  margin-top: auto;
+  border-top: 2px solid #B6CEB4;
+}
+
+footer .foo {
+  margin: 0;
+  color: #F0F0F0;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+footer p {
+  margin: 6px 0 0 0;
+  color: #D9E9CF;
+  font-size: 0.85rem;
+  opacity: 0.9;
+}
+
