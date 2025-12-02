@@ -6,7 +6,7 @@ import App from './App.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename='e/commerce-LarzabalMontoya'>
+    <BrowserRouter basename='/e-commerce-LarzabalMontoya'>
       <App />
     </BrowserRouter>
   </StrictMode>
