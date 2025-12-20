@@ -1,6 +1,7 @@
 import "./Footer.css";
 
 const Footer = () => {
+
   return (
     <footer>
       <h2 className="foo">Dafne LM</h2>

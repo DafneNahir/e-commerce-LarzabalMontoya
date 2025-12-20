@@ -80,3 +80,7 @@
   cursor: pointer;
 }
 
+.item-card-link {
+  text-decoration: none;
+  color: inherit;
+}
