@@ -3,6 +3,9 @@ import { AuthProvider } from "./contexts/Auth/AuthProvider";
 import ProtectedRoute from "./routes/ProtectedRoute";
 
 import "./App.css";
+import ItemListContainer from "./components/Container/ItemListContainer/itemListContainer";
+import ItemDetailContainer from "./components/Container/ItemDetailContainer/ItemDetailContainer";
+import CartWidget from "./components/Presentacion/CartWidget/CartWidget";
 import NavBar from "./components/Presentacion/NavBar/NavBar";
 import Footer from "./components/Presentacion/Footer/Footer";
 
@@ -12,10 +15,7 @@ import Perfil from "./pages/Perfil/Perfil";
 import Contacto from "./pages/Contacto/Contacto";
 import NotFound from "./pages/NotFound/NotFound";
 import Registrarse from "./pages/Registrarse/Registrarse";
-
-
-import ItemListContainer from "./components/Container/ItemListContainer/itemListContainer";
-import ItemDetailContainer from "./components/Container/ItemDetailContainer/ItemDetailContainer";
+import OrderDetail from "./pages/OrderDetail/OrderDetail";
 import Checkout from "./pages/Checkout/Checkout";
 
 function App() {
@@ -35,8 +35,8 @@ function App() {
 
         <Route path="/ingresar" element={<Ingresar />} />
         <Route path="/registrarse" element={<Registrarse />} />
-        <Route path="/order/:orderId" element={<OrderDetail />} />
-        <Route path="/order/:id" element={<Order />} />
+        <Route path="/order" element={<OrderDetail />} />
+        <Route path="/orderId" element={<CartWidget />} />
         <Route path="/checkout" element={<Checkout/>} />
         <Route path="/perfil" element={ <ProtectedRoute> <Perfil /> </ProtectedRoute> } />
         <Route path="/contacto" element={<Contacto />} />

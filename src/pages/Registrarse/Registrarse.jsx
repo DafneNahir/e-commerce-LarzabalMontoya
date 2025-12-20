@@ -43,7 +43,7 @@ const Registrarse = () => {
         <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} required />
 
         <label>Repita contraseña</label>
-        <input type="password" value={password} onChange={(e) => setRepeatPassword(e.target.value)} required />
+        <input type="password" value={repeatPassword} onChange={(e) => setRepeatPassword(e.target.value)} required />
 
         {error && <p className="error">{error}</p>}
 

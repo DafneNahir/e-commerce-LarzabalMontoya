@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router";
 import { doc, getDoc } from "firebase/firestore";
 import { db } from "../../Service/firebase";
-import "./Order.css";
+import "./OrderDetail.css";
 
-const Order = () => {
+const OrderDetail = () => {
   const { id } = useParams();
   const navigate = useNavigate();
 
@@ -75,4 +75,4 @@ const Order = () => {
   );
 };
 
-export default Order;
+export default OrderDetail;
