@@ -1,0 +1,97 @@
+.page-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.page-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+/* ===== FORMULARIO ===== */
+
+.contact-form {
+  background-color: #daedd0;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  border: 1px solid #96A78D;
+  border-radius: 5px;
+  background-color: #F0F0F0;
+  color: #3C4A39;
+  font-family: inherit;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #819479;
+  box-shadow: 0 0 0 2px rgba(150, 167, 141, 0.3);
+}
+
+.contact-form button {
+  background-color: #96A78D;
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.contact-form button:hover {
+  background-color: #819479;
+}
+
+/* ===== UBICACIÓN ===== */
+
+.contact-location {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.map {
+  flex: 2;
+  height: 250px;
+  border: none;
+}
+
+.location-info {
+  flex: 1;
+  font-size: 1.4em;
+}
+
+.location-info h4 {
+  margin-bottom: 10px;
+}
+
+.info-ubic {
+  font-size: 0.em;
+}
+
+/* ===== REDES ===== */
+
+.contact-social {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.contact-social p {
+  margin: 6px 0;
+  font-size: 14px;
+}

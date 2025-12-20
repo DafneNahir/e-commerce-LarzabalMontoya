@@ -1,0 +1,137 @@
+.cart-page {
+  max-width: 1100px;
+  margin: 120px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.cart-page.empty {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.cart-title {
+  font-size: 2.2rem;
+  margin-bottom: 25px;
+  color: #344034;
+  border-bottom: 3px solid #96A78D;
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  background: #F8FBF6;
+  padding: 18px;
+  border-radius: 14px;
+  border: 1px solid #dfe7d9;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.cart-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.10);
+}
+
+.cart-item img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.cart-item-info {
+  flex: 1;
+}
+
+.cart-item-name {
+  font-size: 1.3rem;
+  color: #344034;
+  font-weight: 600;
+}
+
+.cart-item-qty {
+  font-size: 0.95rem;
+  margin-top: 5px;
+  color: #666;
+}
+
+.cart-item-price {
+  margin-top: 6px;
+  color: #555;
+  font-weight: 600;
+}
+
+.cart-remove-btn {
+  background: #d9534f;
+  border: none;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.cart-remove-btn:hover {
+  background: #c9302c;
+  transform: scale(1.05);
+}
+
+.cart-summary {
+  margin-top: 35px;
+  background: #f5f5f5;
+  padding: 25px;
+  border-radius: 14px;
+  border: 1px solid #ddd;
+}
+
+.cart-total {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #344034;
+  text-align: center;
+}
+
+.finalizar-btn {
+  margin-top: 25px;
+  width: 100%;
+  padding: 15px;
+  background: #96A78D;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.finalizar-btn:hover {
+  background: #7f9476;
+}
+
+.clear-btn {
+  margin-top: 12px;
+  width: 100%;
+  padding: 13px;
+  background: #d4b46e;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.clear-btn:hover {
+  background: #c6a459;
+}

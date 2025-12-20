@@ -1,4 +1,4 @@
-import ItemListContainer from "../../components/Container/ItemListContainer/ItemListContainer";
+import ItemListContainer from "../../components/Container/ItemListContainer/itemListContainer.jsx";
 import "./Pages.css";
 
 const Productos = () => {

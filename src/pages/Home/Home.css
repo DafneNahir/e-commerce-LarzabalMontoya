@@ -2,18 +2,35 @@
   padding: 40px;
   font-family: "Libre Caslon Text", serif;
   color: #96A78D;
+  text-align: center;
 }
 
 .home-container h2 {
   font-family: "Cormorant Upright", serif;
   font-weight: 500;
-  font-size: 2.5em;
+  font-size: 2em;
   color: #B6CEB4;
   margin-bottom: 15px;
 }
 
 .home-container p {
-  font-size: 3em;
+  font-size: 2.5em;
   color: #96A78D;
   line-height: 1.5;
+}
+
+.msj-inicio {
+  max-width: 90vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-right: 12vw;
+  margin-left: 12vw;
+  margin-bottom: 3vh;
+}
+
+.msj-inicio p {
+  font-size: 1.2em;
+  line-height: 1.8;
 }

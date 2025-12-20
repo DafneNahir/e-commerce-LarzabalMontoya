@@ -1,4 +1,4 @@
-import "../Pages.css";
+import "./NotFound.css";
 
 const NotFound = () => (
   <div className="page-container notFound">
