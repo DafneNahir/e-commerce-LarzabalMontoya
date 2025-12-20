@@ -27,20 +27,18 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home greeting={welcomeMessage} />} />
+        <Route path="/ingresar" element={<Ingresar />} />
+        <Route path="/registrarse" element={<Registrarse />} />
+        <Route path="/order/:id" element={<OrderDetail />} />
+        <Route path="/checkout" element={<Checkout/>} />
+        <Route path="/perfil" element={ <ProtectedRoute> <Perfil /> </ProtectedRoute> } />
+        <Route path="/contacto" element={<Contacto />} />
+        <Route path="*" element={<NotFound />} />
 
         <Route path="/productos" element={<ItemListContainer />} />
         <Route path="/productos/:categoryId" element={<ItemListContainer />} />
         <Route path="/productos/:categoryId/:subcategoryId" element={<ItemListContainer />} />
         <Route path="/producto/:productId" element={<ItemDetailContainer />} />
-
-        <Route path="/ingresar" element={<Ingresar />} />
-        <Route path="/registrarse" element={<Registrarse />} />
-        <Route path="/order" element={<OrderDetail />} />
-        <Route path="/orderId" element={<CartWidget />} />
-        <Route path="/checkout" element={<Checkout/>} />
-        <Route path="/perfil" element={ <ProtectedRoute> <Perfil /> </ProtectedRoute> } />
-        <Route path="/contacto" element={<Contacto />} />
-        <Route path="*" element={<NotFound />} />
       </Routes>
 
       <Footer />

@@ -32,12 +32,11 @@ Se trata de una Single Page Application (SPA) de e-commerce desarrollada con Rea
 - Colección `orders` para almacenar compras
 - Colección `contact` para mensajes de contacto
 
-## 🔐 Variables de entorno
-Este proyecto utiliza variables de entorno para Firebase.
-Solicitarlas al momento de la entrega.
-
 ## ✅ Estado del proyecto
 Proyecto funcional, probado localmente y conectado a Firebase.
+
+## 🌐 Deploy
+Proyecto desplegado en GitHub Pages.
 
 ## 🚀 Instalación
 ```bash

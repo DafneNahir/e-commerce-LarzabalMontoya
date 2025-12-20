@@ -52,9 +52,9 @@ const NavBar = ({ cartCount }) => {
       </div>
 
       {user ? (
-        <div className="panel-nav ingresar">
-          <span style={{ marginRight: "12px" }}>{user.email}</span>
-          <span onClick={logout} style={{ cursor: "pointer" }}>Cerrar sesión</span>
+        <div className="sesion-iniciada">
+          <span className="sesion">{user.email}</span>
+          <span className="sesion" onClick={logout}>Cerrar sesión</span>
         </div>
       ) : (
         <div className="panel-nav ingresar">

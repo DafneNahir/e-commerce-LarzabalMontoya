@@ -12,17 +12,17 @@ const Ingresar = () => {
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
+  e.preventDefault();
+  setError("");
 
-    const res = login(email, password);
-
-    if (!res.ok) {
-      setError(res.error);
-      return;
-    }
-
-    navigate("/");
-  };
+  try {
+    await login(email, password);
+    navigate("/productos"); 
+  } catch (err) {
+    setError("Usuario o contraseña incorrectos");
+    console.error(err);
+  }
+};
 
   return (
     <div className="container">

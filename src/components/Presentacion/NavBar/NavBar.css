@@ -120,3 +120,14 @@ html, body {
   align-items: center;
 }
 
+.sesion-iniciada {
+  color:#D9E9CF;
+  display: flex;
+  flex-direction: column;
+}
+
+.sesion {
+  font-size: 1em;
+  cursor: pointer;
+  margin: 6px;
+}
