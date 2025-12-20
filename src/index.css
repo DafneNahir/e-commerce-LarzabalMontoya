@@ -20,6 +20,8 @@ body {
   background-color: #F0F0F0;
   overflow-x: hidden;
   overflow-y: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 h1, h2, h3, h4, h5, h6 {

@@ -1,16 +1,46 @@
-# React + Vite
+# Joyeria – E-commerce React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto final del curso de React en Coderhouse.  
+Se trata de una Single Page Application (SPA) de e-commerce desarrollada con React y Firebase.
 
-Currently, two official plugins are available:
+## 🛠 Tecnologías utilizadas
+- React
+- React Router
+- Context API
+- Firebase (Authentication y Firestore)
+- CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📦 Funcionalidades
+- Listado dinámico de productos desde Firestore
+- Vista de detalle de producto
+- Selección de cantidad y validaciones de stock
+- Carrito de compras con estado global
+- Autenticación de usuarios
+- Generación de órdenes de compra en Firestore
+- Obtención del ID de orden al finalizar la compra
+- Página de contacto con formulario y datos de la tienda
 
-## React Compiler
+## 🧾 Órdenes de compra
+- Las órdenes se almacenan en Firestore
+- Al finalizar la compra se redirige a `/order/:id`
+- La vista de orden muestra el resumen y número de seguimiento
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🔥 Firebase
+- Colección `Joyeria` para productos
+- Colección `orders` para órdenes de compra
+- Autenticación con email y contraseña
+- Colección `orders` para almacenar compras
+- Colección `contact` para mensajes de contacto
 
-## Expanding the ESLint configuration
+## 🔐 Variables de entorno
+Este proyecto utiliza variables de entorno para Firebase.
+Solicitarlas al momento de la entrega.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✅ Estado del proyecto
+Proyecto funcional, probado localmente y conectado a Firebase.
+
+## 🚀 Instalación
+```bash
+git clone https://github.com/DafneNahir/e-commerce-LarzabalMontoya
+npm install
+npm run dev
