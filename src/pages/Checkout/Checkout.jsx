@@ -10,10 +10,13 @@ const Checkout = () => {
   const navigate = useNavigate();
 
   const [loading, setLoading] = useState(false);
-  const [orderId, setOrderId] = useState(null);
   const [error, setError] = useState(false);
 
   const handleCheckout = async () => {
+    if (!user) {
+      navigate("/ingresar");
+      return;
+    }
     setLoading(true);
     setError(false);
 
@@ -32,9 +35,9 @@ const Checkout = () => {
     };
 
     try {
-      const id = await createOrder(order);
-      setOrderId(id);
+      const orderId = await createOrder(order);
       clearCart();
+      navigate(`/order/${orderId}`);
     } catch (err) {
       console.error(err);
       setError(true);
@@ -43,19 +46,8 @@ const Checkout = () => {
     }
   };
 
-  if (orderId) {
-    return (
-      <div className="page-container">
-        <h2>¡Gracias por tu compra!</h2>
-        <p>Tu número de orden es:</p>
-        <strong>{orderId}</strong>
-        <button onClick={() => navigate("/")}>Volver al inicio</button>
-      </div>
-    );
-  }
-
   return (
-    <div className="page-container">
+    <div className="checkout-container">
       <h2>Checkout</h2>
 
       {cart.length === 0 ? (
@@ -67,7 +59,9 @@ const Checkout = () => {
             {loading ? "Procesando..." : "Confirmar compra"}
           </button>
 
-          {error && <p className="error">No se pudo generar la orden</p>}
+          {error && (
+            <p className="error"> No se pudo generar la orden. Intente nuevamente. </p>
+          )}
         </>
       )}
     </div>

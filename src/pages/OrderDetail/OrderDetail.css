@@ -1,6 +1,80 @@
-.order-container {
-  padding: 40px;
-  font-family: "Libre Caslon Text", serif;
-  color: #96A78D;
+/* ===== ORDER PAGE ===== */
+
+.order-page {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #daedd0;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
   text-align: center;
+  font-family: "Libre Caslon Text", serif;
+  color: #3C4A39;
+}
+
+.order-page h2 {
+  font-family: "Cormorant Upright", serif;
+  font-size: 2.2em;
+  color: #96A78D;
+  margin-bottom: 20px;
+}
+
+.order-id {
+  font-size: 0.95em;
+  margin-bottom: 25px;
+  color: #3C4A39;
+}
+
+.order-summary {
+  background-color: #F0F0F0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.95em;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.order-item:last-child {
+  border-bottom: none;
+}
+
+.order-page h3 {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: #3C4A39;
+}
+
+.order-page button {
+  background-color: #96A78D;
+  color: #fff;
+  font-size: 1rem;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.order-page button:hover {
+  background-color: #819479;
+}
+
+/* ===== LOADING / NOT FOUND ===== */
+
+.page-container p {
+  text-align: center;
+  font-size: 1em;
+  color: #3C4A39;
+}
+
+.page-container h2 {
+  text-align: center;
+  font-family: "Cormorant Upright", serif;
+  color: #96A78D;
 }
